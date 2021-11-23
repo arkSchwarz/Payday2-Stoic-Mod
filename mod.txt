@@ -1,0 +1,19 @@
+{
+	"name" : "Completely Balance Stoic",
+	"description" : "Re-Balance Stoic to change how you use stoic",
+	"author" : "Keeros",
+	"contact" : "",
+	"version" : "1.3",
+	"hooks" :
+	[
+		{
+			"hook_id" : "lib/tweak_data/upgradestweakdata",
+			"script_path" : "perk.lua"
+		}
+		{
+
+			"hook_id" : "lib/tweak_data/blackmarket/projectilestweakdata",
+			"script_path" : "cooldown.lua"		
+		}
+	]
+}
